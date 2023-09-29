@@ -7,10 +7,17 @@
 ## Installation
 ```bash
 npm install nodemon
+```
+```bash
 npm install
+```
+```bash
 nodemon
+```
+```bash
 http://localhost:3000
-
+```
+```bash
 
 ## Project Structure
 ├── app.js
@@ -32,10 +39,10 @@ http://localhost:3000
 │   └── users.js
 └── views
     ├── layouts
-    |   ├── header.ejs
-    |   ├── meta.ejs
-    |   ├── navbar.ejs
-    |   └── footer.ejs
+    │  ├── header.ejs
+    │   ├── meta.ejs
+    │   ├── navbar.ejs
+    │   └── footer.ejs
     ├── error.ejs
     ├── index.ejs
     └── layout.ejs
