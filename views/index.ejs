@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<%- include ('./layouts/header') %>
+<%- include ('./layouts/navbar') %>
+<div class="container-fluid mt-3 mb-3">
+    <div class="card">
+        <div class="card-header"></div>
+        <div class="card-body">
+            <%- include ('chart') %>
+            <%- include ('table') %>
+        </div>
+        <div class="card-footer">
+            <small class="text-body-secondary">Last updated. <%= date %></small>
+        </div>
+    </div>
+</div>
+<%- include ('./layouts/footer') %>

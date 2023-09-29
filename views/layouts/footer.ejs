@@ -1,0 +1,27 @@
+</body>
+<footer class="footer bg-light py-3 border-top border-bottom shadom-sm">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-start">
+                <span class="text-muted"><b style="font-weight: bold;">
+                        <%= title %>
+                    </b> v.1.0.0</span>
+            </div>
+            <div class="col text-end">
+                <span class="text-muted" id="copyright">
+                    <a href="httP://iswantogroup.my.id" class="text-muted" style="text-decoration: none;"
+                        target="_blank">joki.id</a> &copy; <span id="currentYear"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    const currentYearElement = document.getElementById("currentYear");
+    const currentYearFormElement = document.getElementById("currentYearForm");
+    const currentYear = new Date().getFullYear();
+    currentYearElement.textContent = currentYear;
+    currentYearFormElement.textContent = currentYear;
+
+</script>
+</html>
