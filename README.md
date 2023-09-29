@@ -21,10 +21,10 @@ http://localhost:3000
 
 ## Project Structure
 ├── app.js
-├── config
-│   └── db.js
 ├── bin
 │   └── www
+├── config
+│   └── db.js
 ├── package.json
 ├── package-lock.json
 ├── public
@@ -39,11 +39,11 @@ http://localhost:3000
 │   └── users.js
 └── views
     ├── layouts
+    │  ├── footer.ejs
     │  ├── header.ejs
-    │   ├── meta.ejs
-    │   ├── navbar.ejs
-    │   └── footer.ejs
+    │  ├── meta.ejs
+    │  └── navbar.ejs
     ├── error.ejs
-    ├── index.ejs
-    └── layout.ejs
+    └── index.ejs
+    
 ```
